@@ -6,7 +6,7 @@ WordBank={
 "ART":3,"EAR":3,
 "ARE":3,"TEA":3,
 "LET":3,"ATE":3,
-"RAT":3,"ART":3,}
+"RAT":3}
 
 def main():
     print(" Welcome to spelling bee challenge!")
