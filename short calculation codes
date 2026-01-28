@@ -1,0 +1,17 @@
+def operator(num1,num2, opps):
+    if opps == "+":
+        return num1 + num2
+    if opps == "-":
+        return num1 - num2
+    if opps == "*":
+        return num1 * num2
+    if opps == "/":
+        return num1 / num2 
+    else:
+        print("not a valid option, operators include +, -, *, and /")
+        
+num1=int(input("enter the number for first number= "))
+opp=input("enter opperation= ")
+num2=int(input("enter the number for second number= "))
+
+print(operator(num1,num2,opp))
