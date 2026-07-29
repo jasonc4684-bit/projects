@@ -18,4 +18,5 @@ def main():
         if guess in WordBank:
             WordBank.pop(guess)
             print(f"Correct! {len(WordBank)} words left.")
-main()        
+if __name__ == "__main__:           
+    main()        
