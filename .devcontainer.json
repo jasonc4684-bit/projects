@@ -1,7 +1,7 @@
 {
   "name": "AutoSync Dev",
   "postCreateCommand": "chmod +x autosync.sh",
-  "postStartCommand": "./autosync.sh",
+  "postStartCommand": "bash autosync.sh &",
   "customizations": {
     "vscode": {
       "settings": {},
